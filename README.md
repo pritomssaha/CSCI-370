@@ -1,1 +1,1 @@
-# CSCI-370
+# CSCI 370 - Software Engineering

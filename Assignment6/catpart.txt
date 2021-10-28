@@ -1,0 +1,52 @@
+# File
+Size:
+  Empty.                            [single][property empty]
+  Not empty.                        [property ok]
+
+# NumOfFiles
+Number of files provided:
+   Zero.                   	    [error] [property zeroFiles]
+   One.                             [single] 
+   Many.
+
+# fileExist
+Whether the files specifies exist:
+   True.                            [single] [if !zeroFiles] [property fileExists]
+   False.                           [error] [if !zeroFiles]
+
+#OPT
+Options:
+  -b.                               [property backUp]
+  -f.                               [property firstOccurence]
+  -l.                               [property lastOccurence]
+  -i.                               [property propertyInsensitive]
+  Opt not found.                    [error]
+
+# Parameters
+Parameter from:
+  Zero.                             [single][property emptyString]
+  One.                              [property short]
+  Many.                             [property long]
+  Upper case.                       [single][property upperCase]
+  Lower case.                       [single][property lowerCase]
+
+Parameter to:
+  Zero.
+  One.
+  Many.
+  Upper case.
+  Lower case.
+  
+# Find matches
+  Number of matches of the pattern in second file:
+    Zero.                               [if !empty][property noMatch]
+    One.                                [if !empty && short]
+    Many.                               [if !empty && long]
+  
+# Replace
+  Replace Value:
+    Replace backUp.                     [if !empty && backUp]
+    Replace firstOccurence.             [if !empty && firstOccurence]
+    Replace lastOccurence.              [if !empty && lastOccurence]
+    Replace sensitiveCase.              [if !empty && propertyInsensitive]
+

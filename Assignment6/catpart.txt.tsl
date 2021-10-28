@@ -1,0 +1,916 @@
+
+Test Case 1  		<single>
+   Size :  Empty
+
+
+Test Case 2  		<error>
+   Number of files provided :  Zero
+
+
+Test Case 3  		<single>
+   Number of files provided :  One
+
+
+Test Case 4  		<single>
+   Whether the files specifies exist :  True
+
+
+Test Case 5  		<error>
+   Whether the files specifies exist :  False
+
+
+Test Case 6  		<error>
+   Options :  Opt not found
+
+
+Test Case 7  		<single>
+   Parameter from :  Zero
+
+
+Test Case 8  		<single>
+   Parameter from :  Upper case
+
+
+Test Case 9  		<single>
+   Parameter from :  Lower case
+
+
+Test Case 10 		(Key = 2.3.0.1.2.1.1.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  One
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 11 		(Key = 2.3.0.1.2.1.2.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  One
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 12 		(Key = 2.3.0.1.2.2.1.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  One
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 13 		(Key = 2.3.0.1.2.2.2.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  One
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 14 		(Key = 2.3.0.1.2.3.1.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  One
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 15 		(Key = 2.3.0.1.2.3.2.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  One
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 16 		(Key = 2.3.0.1.2.4.1.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  One
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 17 		(Key = 2.3.0.1.2.4.2.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  One
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 18 		(Key = 2.3.0.1.2.5.1.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  One
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 19 		(Key = 2.3.0.1.2.5.2.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  One
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 20 		(Key = 2.3.0.1.3.1.1.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  Many
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 21 		(Key = 2.3.0.1.3.1.3.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  Many
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 22 		(Key = 2.3.0.1.3.2.1.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  Many
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 23 		(Key = 2.3.0.1.3.2.3.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  Many
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 24 		(Key = 2.3.0.1.3.3.1.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  Many
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 25 		(Key = 2.3.0.1.3.3.3.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  Many
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 26 		(Key = 2.3.0.1.3.4.1.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  Many
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 27 		(Key = 2.3.0.1.3.4.3.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  Many
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 28 		(Key = 2.3.0.1.3.5.1.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  Many
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 29 		(Key = 2.3.0.1.3.5.3.1.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -b
+   Parameter from                                  :  Many
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace backUp
+
+
+Test Case 30 		(Key = 2.3.0.2.2.1.1.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  One
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 31 		(Key = 2.3.0.2.2.1.2.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  One
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 32 		(Key = 2.3.0.2.2.2.1.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  One
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 33 		(Key = 2.3.0.2.2.2.2.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  One
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 34 		(Key = 2.3.0.2.2.3.1.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  One
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 35 		(Key = 2.3.0.2.2.3.2.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  One
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 36 		(Key = 2.3.0.2.2.4.1.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  One
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 37 		(Key = 2.3.0.2.2.4.2.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  One
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 38 		(Key = 2.3.0.2.2.5.1.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  One
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 39 		(Key = 2.3.0.2.2.5.2.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  One
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 40 		(Key = 2.3.0.2.3.1.1.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  Many
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 41 		(Key = 2.3.0.2.3.1.3.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  Many
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 42 		(Key = 2.3.0.2.3.2.1.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  Many
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 43 		(Key = 2.3.0.2.3.2.3.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  Many
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 44 		(Key = 2.3.0.2.3.3.1.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  Many
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 45 		(Key = 2.3.0.2.3.3.3.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  Many
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 46 		(Key = 2.3.0.2.3.4.1.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  Many
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 47 		(Key = 2.3.0.2.3.4.3.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  Many
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 48 		(Key = 2.3.0.2.3.5.1.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  Many
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 49 		(Key = 2.3.0.2.3.5.3.2.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -f
+   Parameter from                                  :  Many
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace firstOccurence
+
+
+Test Case 50 		(Key = 2.3.0.3.2.1.1.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  One
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 51 		(Key = 2.3.0.3.2.1.2.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  One
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 52 		(Key = 2.3.0.3.2.2.1.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  One
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 53 		(Key = 2.3.0.3.2.2.2.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  One
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 54 		(Key = 2.3.0.3.2.3.1.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  One
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 55 		(Key = 2.3.0.3.2.3.2.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  One
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 56 		(Key = 2.3.0.3.2.4.1.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  One
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 57 		(Key = 2.3.0.3.2.4.2.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  One
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 58 		(Key = 2.3.0.3.2.5.1.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  One
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 59 		(Key = 2.3.0.3.2.5.2.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  One
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 60 		(Key = 2.3.0.3.3.1.1.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  Many
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 61 		(Key = 2.3.0.3.3.1.3.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  Many
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 62 		(Key = 2.3.0.3.3.2.1.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  Many
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 63 		(Key = 2.3.0.3.3.2.3.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  Many
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 64 		(Key = 2.3.0.3.3.3.1.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  Many
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 65 		(Key = 2.3.0.3.3.3.3.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  Many
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 66 		(Key = 2.3.0.3.3.4.1.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  Many
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 67 		(Key = 2.3.0.3.3.4.3.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  Many
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 68 		(Key = 2.3.0.3.3.5.1.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  Many
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 69 		(Key = 2.3.0.3.3.5.3.3.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -l
+   Parameter from                                  :  Many
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace lastOccurence
+
+
+Test Case 70 		(Key = 2.3.0.4.2.1.1.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  One
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 71 		(Key = 2.3.0.4.2.1.2.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  One
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 72 		(Key = 2.3.0.4.2.2.1.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  One
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 73 		(Key = 2.3.0.4.2.2.2.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  One
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 74 		(Key = 2.3.0.4.2.3.1.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  One
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 75 		(Key = 2.3.0.4.2.3.2.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  One
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 76 		(Key = 2.3.0.4.2.4.1.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  One
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 77 		(Key = 2.3.0.4.2.4.2.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  One
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 78 		(Key = 2.3.0.4.2.5.1.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  One
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 79 		(Key = 2.3.0.4.2.5.2.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  One
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  One
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 80 		(Key = 2.3.0.4.3.1.1.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  Many
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 81 		(Key = 2.3.0.4.3.1.3.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  Many
+   Parameter to                                    :  Zero
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 82 		(Key = 2.3.0.4.3.2.1.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  Many
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 83 		(Key = 2.3.0.4.3.2.3.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  Many
+   Parameter to                                    :  One
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 84 		(Key = 2.3.0.4.3.3.1.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  Many
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 85 		(Key = 2.3.0.4.3.3.3.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  Many
+   Parameter to                                    :  Many
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 86 		(Key = 2.3.0.4.3.4.1.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  Many
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 87 		(Key = 2.3.0.4.3.4.3.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  Many
+   Parameter to                                    :  Upper case
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 88 		(Key = 2.3.0.4.3.5.1.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  Many
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  Zero
+   Replace Value                                   :  Replace sensitiveCase
+
+
+Test Case 89 		(Key = 2.3.0.4.3.5.3.4.)
+   Size                                            :  Not empty
+   Number of files provided                        :  Many
+   Whether the files specifies exist               :  <n/a>
+   Options                                         :  -i
+   Parameter from                                  :  Many
+   Parameter to                                    :  Lower case
+   Number of matches of the pattern in second file :  Many
+   Replace Value                                   :  Replace sensitiveCase
+
